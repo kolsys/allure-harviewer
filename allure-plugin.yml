@@ -1,0 +1,5 @@
+id: allure-harviewer
+name: Allure HAR viewer
+description: Allow to inspect HAR files from attachments
+jsFiles:
+  - index.js

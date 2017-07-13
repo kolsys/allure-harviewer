@@ -5,7 +5,7 @@
       'click .harviewer__link': 'viewHar',
     },
     viewHar: function(event) {
-      var x = window.open('', '', 'location=no,toolbar=0');
+      var x = window.open('', '', 'location=no,toolbar=no,scrollbars=yes');
       x.document.write('<html><head>'+
         '<link rel="stylesheet" href="https://gitgrimbo.github.io/harviewer/master/css/harViewer.css" type="text/css">'+
         '<script src="https://gitgrimbo.github.io/harviewer/master/scripts/jquery.js"></script>'+

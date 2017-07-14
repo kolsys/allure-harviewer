@@ -31,6 +31,9 @@
         '</html>');
     },
     template: function (data) {
+      if (!data.testStage) {
+        return;
+      }
       var links = [];
       for (var i in data.testStage.attachments) {
         var attach = data.testStage.attachments[i];

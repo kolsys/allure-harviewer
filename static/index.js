@@ -58,5 +58,5 @@
       }
     }
   });
-  allure.api.addTestcaseBlock(harViewer, {position: 'before'});
+  (allure.api.addTestcaseBlock || allure.api.addTestResultBlock).call(allure.api, harViewer, {position: 'before'});
 })();
